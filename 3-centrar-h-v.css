@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+
+/* uso de posicion absoluta con translate */
+#bloque {
+  background: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  display: flex;
+
+  /* centrar horizontalmente */
+  justify-content: center;
+
+  /* centrar verticalmente */
+  align-items: center;
+}
+
+#bloque {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
